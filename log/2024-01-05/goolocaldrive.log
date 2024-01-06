@@ -1,0 +1,182 @@
+05.01.2024_21:59:23 [CRITICAL] pybase._set_args  --  running <R> fx [runSeq] - Number of arguments (2)
+05.01.2024_21:59:23 [INFO    ] app_env.get_env_vars  -- No env vars to load
+05.01.2024_21:59:23 [INFO    ] app_conf.load_app_config  -- Loading config file : /home/ubuntu/AutoApps/LocalApps/config/goolocaldrive.cfg
+05.01.2024_21:59:23 [DEBUG   ] app_conf.load_app_config  -- Config File Variables ['SCOPES', 'CLIENT_SECRET_FILE', 'TOKEN_FILE', 'API_NAME', 'API_VERSION', 'PATH_DOWNLOAD', 'FOLDER_DRIVE_ID']
+05.01.2024_21:59:23 [DEBUG   ] app_conf.load_app_config  -- App Variables ['SCOPES', 'CLIENT_SECRET_FILE', 'TOKEN_FILE', 'API_NAME', 'API_VERSION', 'PATH_DOWNLOAD', 'FOLDER_DRIVE_ID']
+05.01.2024_21:59:23 [DEBUG   ] pybase.print_config_vars  -- self.config_vars = SCOPES --  https://www.googleapis.com/auth/drive
+05.01.2024_21:59:23 [DEBUG   ] pybase.print_config_vars  -- self.config_vars = CLIENT_SECRET_FILE --  credentials.json
+05.01.2024_21:59:23 [DEBUG   ] pybase.print_config_vars  -- self.config_vars = TOKEN_FILE --  token.json
+05.01.2024_21:59:23 [DEBUG   ] pybase.print_config_vars  -- self.config_vars = API_NAME --  drive
+05.01.2024_21:59:23 [DEBUG   ] pybase.print_config_vars  -- self.config_vars = API_VERSION --  v3
+05.01.2024_21:59:23 [DEBUG   ] pybase.print_config_vars  -- self.config_vars = PATH_DOWNLOAD --  /mount_storage/DownloadGoogleDriveFolder
+05.01.2024_21:59:23 [DEBUG   ] pybase.print_config_vars  -- self.config_vars = FOLDER_DRIVE_ID --  1pE8eiBoPigUbUOsM8UrmhOXl4TZEFGfa
+05.01.2024_21:59:23 [WARNING ] pybase.set_statement_file  --  statements file no exist, name:/home/ubuntu/AutoApps/LocalApps/lib/statements/goolocaldrive.py
+05.01.2024_21:59:23 [INFO    ] pybase._execSteps  -- runStep = R
+05.01.2024_21:59:23 [WARNING ] goolocaldrive.create_update_credentials  -- Tokken not valid <google.oauth2.credentials.Credentials object at 0xffffb747f430> 
+05.01.2024_21:59:23 [WARNING ] goolocaldrive.create_update_credentials  -- Tokken expired, refresh... 
+05.01.2024_21:59:23 [WARNING ] goolocaldrive.create_update_credentials  -- Tokken expired, write... 
+05.01.2024_21:59:23 [INFO    ] goolocaldrive.__Cloud_To_LocalDrive__DOWNLOAD  --  self.SRC_QUERY -> '1pE8eiBoPigUbUOsM8UrmhOXl4TZEFGfa' in parents 
+05.01.2024_21:59:24 [DEBUG   ] goolocaldrive.__Cloud_To_LocalDrive__DOWNLOAD  -- read list -> [{'mimeType': 'application/rar', 'id': '0B-t0ZX5jatcmeWxyN0U1dEdSTG8', 'name': 'Patch_adobe2017.rar'}, {'mimeType': 'application/rar', 'id': '1EwZKP18PqzEJI3PjeKrrEoEb0wbEy4Yp', 'name': 'MKS_Desarrollo.rar'}, {'mimeType': 'application/rar', 'id': '1wU_NvizdyACS3TR8vzVU0r3yt3IzqzM5', 'name': 'casa_data.rar'}, {'mimeType': 'application/vnd.google-apps.spreadsheet', 'id': '1rZS5SHXDrfLzR9j6daNZsV37p9Ldr5dsLtRPkt1N45Y', 'name': 'LIMA_DATA_EXCEL.xlsx'}, {'mimeType': 'application/vnd.google-apps.spreadsheet', 'id': '1MWVOF_SOuAydJswQzakIapZd8y_AbBmUBt0QANGA-Pc', 'name': 'LIMA_DATA_EXCEL.xlsx'}, {'mimeType': 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'id': '1N6JCLQrC7mCGbtFexD2IvJ4mgVSNFaY2', 'name': 'LIMA_DATA_EXCEL.xlsx'}, {'mimeType': 'application/rar', 'id': '1Xy0KBxJESLeUdEwcdKxvgJ5PxckJPhF1', 'name': 'charts.rar'}, {'mimeType': 'application/rar', 'id': '1rtARqPnVc8F2D9xq6-anR0qz7V1lJWin', 'name': 'www.rar'}, {'mimeType': 'image/x-photoshop', 'id': '1I5LkdDzfzw-4yZeJgevNxAtblyh7qse4', 'name': 'bnr.psd'}, {'mimeType': 'application/rar', 'id': '0B-t0ZX5jatcmN0FfQ2ZNZExmbWM', 'name': 'unidos-28.rar'}, {'mimeType': 'application/postscript', 'id': '0B-t0ZX5jatcmeUVVTUluaEpQMDQ', 'name': 'rocket bottle.ai'}, {'mimeType': 'application/x-rar', 'id': '0B-t0ZX5jatcmbENpNUFKa3JIRWc', 'name': 'phpexcel.rar'}, {'mimeType': 'application/rar', 'id': '0B-t0ZX5jatcmeWpYZmpINVVBdms', 'name': 'Desktop.rar'}, {'mimeType': 'application/vnd.google-apps.document', 'id': '19W7ue_Nd-vHZcctg10SyQTVBHfjBM1K-XT-cBzKmulE', 'name': 'Documento sin título'}, {'mimeType': 'application/rar', 'id': '0B-t0ZX5jatcmYXNQb3F4cFFrOTA', 'name': 'Bootstrap.rar'}, {'mimeType': 'application/rar', 'id': '0B-t0ZX5jatcmSmJkSm5zMkxhSFU', 'name': 'webHost.rar'}, {'mimeType': 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'id': '0B-t0ZX5jatcmcmJnQ3FuTWJkWW85S3NDeGxHTUJycjVMWWhz', 'name': 'Alcarraz_Aponte (1).docx'}, {'mimeType': 'application/vnd.google-apps.spreadsheet', 'id': '1ZD1KmnsvNdPCr9ImEv4DWwBOoqUDM8nA-VQqhxLUBf4', 'name': 'grafico_phpexcel_chart_class (3)'}, {'mimeType': 'application/vnd.google-apps.spreadsheet', 'id': '1bY4HjsJKtF4vyTx2rublVekjktJnLL7UgzODd5lMawM', 'name': 'grafico_phpexcel_chart_class (2)'}, {'mimeType': 'application/vnd.google-apps.document', 'id': '1TC1O8itK_KA-Jco_Ljw6AazDAGwck8DBXzx899GzAqU', 'name': 'xd'}, {'mimeType': 'application/rar', 'id': '0B-t0ZX5jatcmb25qX2ZibFMxNms', 'name': 'WindowsApp.rar'}, {'mimeType': 'application/vnd.google-apps.spreadsheet', 'id': '11itcaSm7Gv88bBOCB2yqYJoNQcScwgWwB2b4Nmqii3A', 'name': 'reportadmin20161108131526cluyo20161107175016Allus'}, {'mimeType': 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'id': '0B-t0ZX5jatcmV28zcTVJSVcxQ1o1cnVOUmptWlI4SDgzd2dj', 'name': 'admin20161103165939Distritos del Perú.xlsx'}, {'mimeType': 'application/vnd.google-apps.spreadsheet', 'id': '1CBZyGzmqVs6qYxDs9IH6srFmND3X3c3fGLlWxei52KU', 'name': 'administrador20161019090859zonas 31-08'}, {'mimeType': 'application/vnd.android.package-archive', 'id': '0B-t0ZX5jatcmSTZEWnRock9ZeFVkcEF0c0NzU0hpdTJnSXJR', 'name': 'GPS.apk'}, {'mimeType': 'application/vnd.google-apps.document', 'id': '1-7AUg6QdKKpia_ZXU4yUwWkdA1nPO7EwjJHQqha7yN0', 'name': 'Documento sin título'}]
+05.01.2024_21:59:24 [DEBUG   ] goolocaldrive.__Cloud_To_LocalDrive__DOWNLOAD  -- working with element -> id: 0B-t0ZX5jatcmeWxyN0U1dEdSTG8 
+ name: Patch_adobe2017.rar 
+ type: application/rar 
+
+05.01.2024_21:59:24 [INFO    ] goolocaldrive.__Cloud_To_LocalDrive__DOWNLOAD  --  /mount_storage/DownloadGoogleDriveFolder/Patch_adobe2017.rar exist...build new name and rename file
+05.01.2024_21:59:35 [INFO    ] goolocaldrive.downloader_file  -- Downloader file id: 0B-t0ZX5jatcmeWxyN0U1dEdSTG8 name: Patch_adobe2017.rar, error -> <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files/0B-t0ZX5jatcmeWxyN0U1dEdSTG8?alt=media returned "This file has been identified as malware or spam and cannot be downloaded.". Details: "[{'message': 'This file has been identified as malware or spam and cannot be downloaded.', 'domain': 'global', 'reason': 'cannotDownloadAbusiveFile'}]">
+05.01.2024_21:59:35 [DEBUG   ] goolocaldrive.__Cloud_To_LocalDrive__DOWNLOAD  -- working with element -> id: 1EwZKP18PqzEJI3PjeKrrEoEb0wbEy4Yp 
+ name: MKS_Desarrollo.rar 
+ type: application/rar 
+
+05.01.2024_21:59:58 [INFO    ] goolocaldrive.downloader_file  -- Downloaded 100% of MKS_Desarrollo.rar
+05.01.2024_21:59:59 [INFO    ] goolocaldrive.delete_from_id  -- Element with ID 1EwZKP18PqzEJI3PjeKrrEoEb0wbEy4Yp deleted successfully.
+05.01.2024_21:59:59 [DEBUG   ] goolocaldrive.__Cloud_To_LocalDrive__DOWNLOAD  -- working with element -> id: 1wU_NvizdyACS3TR8vzVU0r3yt3IzqzM5 
+ name: casa_data.rar 
+ type: application/rar 
+
+05.01.2024_22:00:33 [INFO    ] goolocaldrive.downloader_file  -- Downloaded 100% of casa_data.rar
+05.01.2024_22:00:33 [INFO    ] goolocaldrive.delete_from_id  -- Element with ID 1wU_NvizdyACS3TR8vzVU0r3yt3IzqzM5 deleted successfully.
+05.01.2024_22:00:33 [DEBUG   ] goolocaldrive.__Cloud_To_LocalDrive__DOWNLOAD  -- working with element -> id: 1rZS5SHXDrfLzR9j6daNZsV37p9Ldr5dsLtRPkt1N45Y 
+ name: LIMA_DATA_EXCEL.xlsx 
+ type: application/vnd.google-apps.spreadsheet 
+
+05.01.2024_22:00:35 [INFO    ] goolocaldrive.downloader_file  -- Downloaded 100% of LIMA_DATA_EXCEL.xlsx
+05.01.2024_22:00:35 [INFO    ] goolocaldrive.delete_from_id  -- Element with ID 1rZS5SHXDrfLzR9j6daNZsV37p9Ldr5dsLtRPkt1N45Y deleted successfully.
+05.01.2024_22:00:35 [DEBUG   ] goolocaldrive.__Cloud_To_LocalDrive__DOWNLOAD  -- working with element -> id: 1MWVOF_SOuAydJswQzakIapZd8y_AbBmUBt0QANGA-Pc 
+ name: LIMA_DATA_EXCEL.xlsx 
+ type: application/vnd.google-apps.spreadsheet 
+
+05.01.2024_22:00:35 [INFO    ] goolocaldrive.__Cloud_To_LocalDrive__DOWNLOAD  --  /mount_storage/DownloadGoogleDriveFolder/LIMA_DATA_EXCEL.xlsx exist...build new name and rename file
+05.01.2024_22:00:36 [INFO    ] goolocaldrive.downloader_file  -- Downloaded 100% of LIMA_DATA_EXCEL.xlsx
+05.01.2024_22:00:37 [INFO    ] goolocaldrive.delete_from_id  -- Element with ID 1MWVOF_SOuAydJswQzakIapZd8y_AbBmUBt0QANGA-Pc deleted successfully.
+05.01.2024_22:00:37 [DEBUG   ] goolocaldrive.__Cloud_To_LocalDrive__DOWNLOAD  -- working with element -> id: 1N6JCLQrC7mCGbtFexD2IvJ4mgVSNFaY2 
+ name: LIMA_DATA_EXCEL.xlsx 
+ type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet 
+
+05.01.2024_22:00:37 [INFO    ] goolocaldrive.__Cloud_To_LocalDrive__DOWNLOAD  --  /mount_storage/DownloadGoogleDriveFolder/LIMA_DATA_EXCEL.xlsx exist...build new name and rename file
+05.01.2024_22:00:38 [INFO    ] goolocaldrive.downloader_file  -- Downloaded 100% of LIMA_DATA_EXCEL.xlsx
+05.01.2024_22:00:39 [INFO    ] goolocaldrive.delete_from_id  -- Element with ID 1N6JCLQrC7mCGbtFexD2IvJ4mgVSNFaY2 deleted successfully.
+05.01.2024_22:00:39 [DEBUG   ] goolocaldrive.__Cloud_To_LocalDrive__DOWNLOAD  -- working with element -> id: 1Xy0KBxJESLeUdEwcdKxvgJ5PxckJPhF1 
+ name: charts.rar 
+ type: application/rar 
+
+05.01.2024_22:01:13 [INFO    ] goolocaldrive.downloader_file  -- Downloaded 100% of charts.rar
+05.01.2024_22:01:13 [INFO    ] goolocaldrive.delete_from_id  -- Element with ID 1Xy0KBxJESLeUdEwcdKxvgJ5PxckJPhF1 deleted successfully.
+05.01.2024_22:01:13 [DEBUG   ] goolocaldrive.__Cloud_To_LocalDrive__DOWNLOAD  -- working with element -> id: 1rtARqPnVc8F2D9xq6-anR0qz7V1lJWin 
+ name: www.rar 
+ type: application/rar 
+
+05.01.2024_22:01:53 [INFO    ] goolocaldrive.downloader_file  -- Downloaded 100% of www.rar
+05.01.2024_22:01:54 [INFO    ] goolocaldrive.delete_from_id  -- Element with ID 1rtARqPnVc8F2D9xq6-anR0qz7V1lJWin deleted successfully.
+05.01.2024_22:01:54 [DEBUG   ] goolocaldrive.__Cloud_To_LocalDrive__DOWNLOAD  -- working with element -> id: 1I5LkdDzfzw-4yZeJgevNxAtblyh7qse4 
+ name: bnr.psd 
+ type: image/x-photoshop 
+
+05.01.2024_22:01:59 [INFO    ] goolocaldrive.downloader_file  -- Downloaded 100% of bnr.psd
+05.01.2024_22:01:59 [INFO    ] goolocaldrive.delete_from_id  -- Element with ID 1I5LkdDzfzw-4yZeJgevNxAtblyh7qse4 deleted successfully.
+05.01.2024_22:01:59 [DEBUG   ] goolocaldrive.__Cloud_To_LocalDrive__DOWNLOAD  -- working with element -> id: 0B-t0ZX5jatcmN0FfQ2ZNZExmbWM 
+ name: unidos-28.rar 
+ type: application/rar 
+
+05.01.2024_22:02:33 [INFO    ] goolocaldrive.downloader_file  -- Downloaded 100% of unidos-28.rar
+05.01.2024_22:02:33 [INFO    ] goolocaldrive.delete_from_id  -- Element with ID 0B-t0ZX5jatcmN0FfQ2ZNZExmbWM deleted successfully.
+05.01.2024_22:02:33 [DEBUG   ] goolocaldrive.__Cloud_To_LocalDrive__DOWNLOAD  -- working with element -> id: 0B-t0ZX5jatcmeUVVTUluaEpQMDQ 
+ name: rocket bottle.ai 
+ type: application/postscript 
+
+05.01.2024_22:02:34 [INFO    ] goolocaldrive.downloader_file  -- Downloaded 100% of rocket bottle.ai
+05.01.2024_22:02:35 [INFO    ] goolocaldrive.delete_from_id  -- Element with ID 0B-t0ZX5jatcmeUVVTUluaEpQMDQ deleted successfully.
+05.01.2024_22:02:35 [DEBUG   ] goolocaldrive.__Cloud_To_LocalDrive__DOWNLOAD  -- working with element -> id: 0B-t0ZX5jatcmbENpNUFKa3JIRWc 
+ name: phpexcel.rar 
+ type: application/x-rar 
+
+05.01.2024_22:02:50 [INFO    ] goolocaldrive.downloader_file  -- Downloaded 100% of phpexcel.rar
+05.01.2024_22:02:50 [INFO    ] goolocaldrive.delete_from_id  -- Element with ID 0B-t0ZX5jatcmbENpNUFKa3JIRWc deleted successfully.
+05.01.2024_22:02:50 [DEBUG   ] goolocaldrive.__Cloud_To_LocalDrive__DOWNLOAD  -- working with element -> id: 0B-t0ZX5jatcmeWpYZmpINVVBdms 
+ name: Desktop.rar 
+ type: application/rar 
+
+05.01.2024_22:03:24 [INFO    ] goolocaldrive.downloader_file  -- Downloaded 100% of Desktop.rar
+05.01.2024_22:03:24 [INFO    ] goolocaldrive.delete_from_id  -- Element with ID 0B-t0ZX5jatcmeWpYZmpINVVBdms deleted successfully.
+05.01.2024_22:03:24 [DEBUG   ] goolocaldrive.__Cloud_To_LocalDrive__DOWNLOAD  -- working with element -> id: 19W7ue_Nd-vHZcctg10SyQTVBHfjBM1K-XT-cBzKmulE 
+ name: Documento sin título 
+ type: application/vnd.google-apps.document 
+
+05.01.2024_22:03:24 [INFO    ] goolocaldrive.__Cloud_To_LocalDrive__DOWNLOAD  --  /mount_storage/DownloadGoogleDriveFolder/Documento sin título.docx exist...build new name and rename file
+05.01.2024_22:03:26 [INFO    ] goolocaldrive.downloader_file  -- Downloaded 100% of Documento sin título.docx
+05.01.2024_22:03:26 [INFO    ] goolocaldrive.delete_from_id  -- Element with ID 19W7ue_Nd-vHZcctg10SyQTVBHfjBM1K-XT-cBzKmulE deleted successfully.
+05.01.2024_22:03:26 [DEBUG   ] goolocaldrive.__Cloud_To_LocalDrive__DOWNLOAD  -- working with element -> id: 0B-t0ZX5jatcmYXNQb3F4cFFrOTA 
+ name: Bootstrap.rar 
+ type: application/rar 
+
+05.01.2024_22:03:32 [INFO    ] goolocaldrive.downloader_file  -- Downloaded 100% of Bootstrap.rar
+05.01.2024_22:03:33 [INFO    ] goolocaldrive.delete_from_id  -- Element with ID 0B-t0ZX5jatcmYXNQb3F4cFFrOTA deleted successfully.
+05.01.2024_22:03:33 [DEBUG   ] goolocaldrive.__Cloud_To_LocalDrive__DOWNLOAD  -- working with element -> id: 0B-t0ZX5jatcmSmJkSm5zMkxhSFU 
+ name: webHost.rar 
+ type: application/rar 
+
+05.01.2024_22:03:37 [INFO    ] goolocaldrive.downloader_file  -- Downloaded 100% of webHost.rar
+05.01.2024_22:03:37 [INFO    ] goolocaldrive.delete_from_id  -- Element with ID 0B-t0ZX5jatcmSmJkSm5zMkxhSFU deleted successfully.
+05.01.2024_22:03:37 [DEBUG   ] goolocaldrive.__Cloud_To_LocalDrive__DOWNLOAD  -- working with element -> id: 0B-t0ZX5jatcmcmJnQ3FuTWJkWW85S3NDeGxHTUJycjVMWWhz 
+ name: Alcarraz_Aponte (1).docx 
+ type: application/vnd.openxmlformats-officedocument.wordprocessingml.document 
+
+05.01.2024_22:03:39 [INFO    ] goolocaldrive.downloader_file  -- Downloaded 100% of Alcarraz_Aponte (1).docx
+05.01.2024_22:03:40 [INFO    ] goolocaldrive.delete_from_id  -- Element with ID 0B-t0ZX5jatcmcmJnQ3FuTWJkWW85S3NDeGxHTUJycjVMWWhz deleted successfully.
+05.01.2024_22:03:40 [DEBUG   ] goolocaldrive.__Cloud_To_LocalDrive__DOWNLOAD  -- working with element -> id: 1ZD1KmnsvNdPCr9ImEv4DWwBOoqUDM8nA-VQqhxLUBf4 
+ name: grafico_phpexcel_chart_class (3) 
+ type: application/vnd.google-apps.spreadsheet 
+
+05.01.2024_22:03:41 [INFO    ] goolocaldrive.downloader_file  -- Downloaded 100% of grafico_phpexcel_chart_class (3).xlsx
+05.01.2024_22:03:41 [INFO    ] goolocaldrive.delete_from_id  -- Element with ID 1ZD1KmnsvNdPCr9ImEv4DWwBOoqUDM8nA-VQqhxLUBf4 deleted successfully.
+05.01.2024_22:03:41 [DEBUG   ] goolocaldrive.__Cloud_To_LocalDrive__DOWNLOAD  -- working with element -> id: 1bY4HjsJKtF4vyTx2rublVekjktJnLL7UgzODd5lMawM 
+ name: grafico_phpexcel_chart_class (2) 
+ type: application/vnd.google-apps.spreadsheet 
+
+05.01.2024_22:03:42 [INFO    ] goolocaldrive.downloader_file  -- Downloaded 100% of grafico_phpexcel_chart_class (2).xlsx
+05.01.2024_22:03:43 [INFO    ] goolocaldrive.delete_from_id  -- Element with ID 1bY4HjsJKtF4vyTx2rublVekjktJnLL7UgzODd5lMawM deleted successfully.
+05.01.2024_22:03:43 [DEBUG   ] goolocaldrive.__Cloud_To_LocalDrive__DOWNLOAD  -- working with element -> id: 1TC1O8itK_KA-Jco_Ljw6AazDAGwck8DBXzx899GzAqU 
+ name: xd 
+ type: application/vnd.google-apps.document 
+
+05.01.2024_22:03:44 [INFO    ] goolocaldrive.downloader_file  -- Downloaded 100% of xd.docx
+05.01.2024_22:03:44 [INFO    ] goolocaldrive.delete_from_id  -- Element with ID 1TC1O8itK_KA-Jco_Ljw6AazDAGwck8DBXzx899GzAqU deleted successfully.
+05.01.2024_22:03:44 [DEBUG   ] goolocaldrive.__Cloud_To_LocalDrive__DOWNLOAD  -- working with element -> id: 0B-t0ZX5jatcmb25qX2ZibFMxNms 
+ name: WindowsApp.rar 
+ type: application/rar 
+
+05.01.2024_22:03:51 [INFO    ] goolocaldrive.downloader_file  -- Downloaded 100% of WindowsApp.rar
+05.01.2024_22:03:51 [INFO    ] goolocaldrive.delete_from_id  -- Element with ID 0B-t0ZX5jatcmb25qX2ZibFMxNms deleted successfully.
+05.01.2024_22:03:51 [DEBUG   ] goolocaldrive.__Cloud_To_LocalDrive__DOWNLOAD  -- working with element -> id: 11itcaSm7Gv88bBOCB2yqYJoNQcScwgWwB2b4Nmqii3A 
+ name: reportadmin20161108131526cluyo20161107175016Allus 
+ type: application/vnd.google-apps.spreadsheet 
+
+05.01.2024_22:03:53 [INFO    ] goolocaldrive.downloader_file  -- Downloaded 100% of reportadmin20161108131526cluyo20161107175016Allus.xlsx
+05.01.2024_22:03:53 [INFO    ] goolocaldrive.delete_from_id  -- Element with ID 11itcaSm7Gv88bBOCB2yqYJoNQcScwgWwB2b4Nmqii3A deleted successfully.
+05.01.2024_22:03:53 [DEBUG   ] goolocaldrive.__Cloud_To_LocalDrive__DOWNLOAD  -- working with element -> id: 0B-t0ZX5jatcmV28zcTVJSVcxQ1o1cnVOUmptWlI4SDgzd2dj 
+ name: admin20161103165939Distritos del Perú.xlsx 
+ type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet 
+
+05.01.2024_22:03:55 [INFO    ] goolocaldrive.downloader_file  -- Downloaded 100% of admin20161103165939Distritos del Perú.xlsx
+05.01.2024_22:03:55 [INFO    ] goolocaldrive.delete_from_id  -- Element with ID 0B-t0ZX5jatcmV28zcTVJSVcxQ1o1cnVOUmptWlI4SDgzd2dj deleted successfully.
+05.01.2024_22:03:55 [DEBUG   ] goolocaldrive.__Cloud_To_LocalDrive__DOWNLOAD  -- working with element -> id: 1CBZyGzmqVs6qYxDs9IH6srFmND3X3c3fGLlWxei52KU 
+ name: administrador20161019090859zonas 31-08 
+ type: application/vnd.google-apps.spreadsheet 
+
+05.01.2024_22:03:56 [INFO    ] goolocaldrive.downloader_file  -- Downloaded 100% of administrador20161019090859zonas 31-08.xlsx
+05.01.2024_22:03:57 [INFO    ] goolocaldrive.delete_from_id  -- Element with ID 1CBZyGzmqVs6qYxDs9IH6srFmND3X3c3fGLlWxei52KU deleted successfully.
+05.01.2024_22:03:57 [DEBUG   ] goolocaldrive.__Cloud_To_LocalDrive__DOWNLOAD  -- working with element -> id: 0B-t0ZX5jatcmSTZEWnRock9ZeFVkcEF0c0NzU0hpdTJnSXJR 
+ name: GPS.apk 
+ type: application/vnd.android.package-archive 
+
+05.01.2024_22:04:01 [INFO    ] goolocaldrive.downloader_file  -- Downloaded 100% of GPS.apk
+05.01.2024_22:04:02 [INFO    ] goolocaldrive.delete_from_id  -- Element with ID 0B-t0ZX5jatcmSTZEWnRock9ZeFVkcEF0c0NzU0hpdTJnSXJR deleted successfully.
+05.01.2024_22:04:02 [DEBUG   ] goolocaldrive.__Cloud_To_LocalDrive__DOWNLOAD  -- working with element -> id: 1-7AUg6QdKKpia_ZXU4yUwWkdA1nPO7EwjJHQqha7yN0 
+ name: Documento sin título 
+ type: application/vnd.google-apps.document 
+
+05.01.2024_22:04:02 [INFO    ] goolocaldrive.__Cloud_To_LocalDrive__DOWNLOAD  --  /mount_storage/DownloadGoogleDriveFolder/Documento sin título.docx exist...build new name and rename file
+05.01.2024_22:04:03 [INFO    ] goolocaldrive.downloader_file  -- Downloaded 100% of Documento sin título.docx
+05.01.2024_22:04:04 [INFO    ] goolocaldrive.delete_from_id  -- Element with ID 1-7AUg6QdKKpia_ZXU4yUwWkdA1nPO7EwjJHQqha7yN0 deleted successfully.
+05.01.2024_22:04:04 [INFO    ] goolocaldrive.__runCloud_To_LocalDrive  --  self.FolderFinder -> []
+05.01.2024_22:04:04 [INFO    ] pybase._execSteps  -- R:__runCloud_To_LocalDrive()	rc	= 0
+05.01.2024_22:04:04 [INFO    ] pybase.main  -- Completed running exec_steps rc = 0
